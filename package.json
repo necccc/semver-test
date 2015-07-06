@@ -1,0 +1,25 @@
+{
+  "name": "semver-test",
+  "version": "0.0.0-semantically-released",
+  "description": "just a test package to try out semantic release with nvm",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "semantic-release": "^3.3.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "semantic-release pre",
+    "postpublish": "semantic-release post"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/necccc/semver-test.git"
+  },
+  "author": "nec@shell8.net",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/necccc/semver-test/issues"
+  },
+  "homepage": "https://github.com/necccc/semver-test#readme"
+}
